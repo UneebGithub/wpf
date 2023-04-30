@@ -1,0 +1,20 @@
+﻿<Window x:Class="loginfull.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:loginfull"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300" ResizeMode="NoResize">
+    <Grid Background="Black">
+
+        <Label Content="LOGIN" Foreground="White" FontSize="40" Margin="70,10,0,0" FontWeight="Bold"></Label>
+        <Label Content="UserName" Foreground="White" FontSize="20" Margin="80,80,0,0"></Label>
+        <TextBox Width="200" Height="30" Margin="0,0,0,100" x:Name="user_name" FontSize="20"></TextBox>
+        <Label Content="Password" Foreground="White" FontSize="20" Margin="80,160,0,0"></Label>
+        <PasswordBox Width="200" Height="30" Margin="0,50,0,0" x:Name="password" FontSize="20"></PasswordBox>
+        <Button Content="Submit" Width="100" FontWeight="Bold" Margin="0,140,0,0" Click="btn_click" Height="25"/>
+        <Label Content="Change Password Click Here " Foreground="White" FontSize="15" Margin="0,320,0,0"></Label>
+        <Button Content="Forgot" Width="100" FontWeight="Bold" Margin="200,300,0,0" Click="btn_click1" Height="20"/>
+    </Grid>
+</Window>
